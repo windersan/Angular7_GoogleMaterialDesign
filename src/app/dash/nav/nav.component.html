@@ -1,0 +1,18 @@
+<mat-sidenav-container class="app-nav-container">
+  <mat-sidenav class="app-nav mat-elevation-z24" #nav opened="true">
+    <mat-toolbar color="accent" class="mat-elevation-z24">Dashboard</mat-toolbar>
+    <mat-list>
+      <mat-list-item>Module 1</mat-list-item>
+      <mat-list-item>Module 2</mat-list-item>
+      <mat-list-item>Module 3</mat-list-item>
+      <mat-list-item>Module 4</mat-list-item>
+    </mat-list>
+    <app-dragdrop></app-dragdrop>
+  </mat-sidenav>
+  <div class="app-nav-content ">
+    <button type="button " mat-button (click)="nav.open() ">
+      <mat-icon class="icon ">menu</mat-icon>
+      </button>
+    <app-tool></app-tool>
+  </div>
+</mat-sidenav-container>

@@ -1,0 +1,26 @@
+.app-nav-container {
+  flex: 1;
+  position: fixed;
+  width: 99%;
+  min-width: 99%;
+  height: 99%;
+  min-height: 99%;
+}
+
+.app-nav-content {
+  display: flex;
+  height: 99%;
+  flex-direction: column;
+}
+
+.app-nav {
+  width: 220px;
+}
+
+.wrapper {
+  margin: 40px;
+}
+
+.icon {
+  float: left;
+}
