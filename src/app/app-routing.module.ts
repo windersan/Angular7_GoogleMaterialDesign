@@ -3,6 +3,7 @@ import { Routes, RouterModule } from "@angular/router";
 import { DashComponent } from "./dash/dash.component";
 import { ListEmployeesComponent } from "src/app/employee/list-employees.component";
 import { CreateEmployeeComponent } from "src/app/employee/create-employee.component";
+import { CrearEmpleadoComponent } from "src/app/empleado/crear-empleado.component";
 
 const routes: Routes = [
   {

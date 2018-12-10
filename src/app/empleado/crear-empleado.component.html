@@ -1,0 +1,26 @@
+<mat-card>
+
+  <form class="nuevo-empleado-container" [formGroup]="empleadoFormGroup">
+
+    <mat-form-field>
+      <input matInput placeholder="Apellido" formControlName="apellido">
+    </mat-form-field>
+
+    <mat-form-field>
+      <textarea matInput placeholder="Email" formControlName="email"></textarea>
+    </mat-form-field>
+
+    <!-- <mat-form-field>
+      <textarea matInput placeholder="Habilidad" formControlName="habilidad"></textarea>
+    </mat-form-field>
+
+    <mat-form-field>
+      <mat-select placeholder="Nivel">
+        <mat-option value="principiante">Principiante</mat-option>
+        <mat-option value="medio">Medio</mat-option>
+        <mat-option value="avanzado">Avanzado</mat-option>
+      </mat-select>
+    </mat-form-field> -->
+
+  </form>
+</mat-card>

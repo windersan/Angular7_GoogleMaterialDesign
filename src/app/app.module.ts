@@ -20,6 +20,10 @@ import { ListEmployeesComponent } from "./employee/list-employees.component";
 import { HideComponent } from "./util/hide.component";
 //import { DragdropComponent } from "./util/dragdrop.component";
 import { DashModule } from "src/app/dash/dash.module";
+import { FormsModule, ReactiveFormsModule } from "@angular/forms";
+import { MinLengthValidatorComponent } from './util/min-length-validator/min-length-validator.component';
+//import { HeroesComponent } from './util/hero/heroes.component';
+//import { HeroDetailComponent } from './util/hero/hero-detail.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +33,10 @@ import { DashModule } from "src/app/dash/dash.module";
     // ToolComponent,
     CreateEmployeeComponent,
     ListEmployeesComponent,
-    HideComponent
+    HideComponent,
+    MinLengthValidatorComponent
+    // HeroesComponent,
+    // HeroDetailComponent
     //DragdropComponent
   ],
   imports: [
